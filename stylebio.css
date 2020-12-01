@@ -1,0 +1,180 @@
+body {
+  font-family: helvetica, arial, sans-serif, gotham 'Open Sans', sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  color: #000000;
+  font-size: 45px;
+}
+
+h2 {
+  color: #000000;
+  font-size: 15px;
+}
+
+h3 {
+  color:#000000
+  font-size:10px;
+}
+body {
+  background-image: url("https://cdn.glitch.com/f87dacb1-7677-4e98-a074-0f0c541c97f6%2Fbg.jpg?v=1606635194365");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+#homeicon {
+  position: relative;
+  bottom: 25px;
+  right: 10px;
+  color: #FFFFFF;
+  width:300px
+  float: left;
+  font-kerning: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#artworkbutton {
+  position: relative;
+  bottom: 100px;
+  left: 1200px;
+  width: 100px;
+  float: left;
+  color: #FFFFFF;
+  
+  display:block;
+</a>
+}
+
+#biographybutton {
+  position: relative;
+  bottom: 100px;
+  left: 1200px;
+  width: 100px;
+  float: left;
+  color: #FFFFFF;
+  <a href="biography.html">
+  
+  
+}
+#visitbutton {
+  position: relative;
+  bottom: 100px;
+  left: 1200px;
+  width: 100px;
+  float: left;
+  color: #FFFFFF;
+  
+}
+
+#homebutton {
+  position: relative;
+  bottom: 100px;
+  left: 830px;
+  width: 60px;
+  float: left;
+  color: #FFFFFF;
+  
+}
+
+
+
+
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+#vincent {
+  position: relative;
+  right: 300px;
+  top: 50px;
+  float:left;
+  
+}
+
+
+.container2 {
+  position: relative;
+  left:100px
+  width: 50%;
+  max-width: 200px;
+  float:left;
+}
+
+
+
+.image {
+  display: block;
+  width: 350px;
+  height: 390px;
+}
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 310px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+.divtextbox7{
+  position:relative;
+  top: 100px;
+  left: 700px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width:500px;
+  height:300px;
+}
+
+.divtext4{
+  position:relative;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00000;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  
+ 
+}

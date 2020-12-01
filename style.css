@@ -1,76 +1,376 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: helvetica, arial, sans-serif, gotham 'Open Sans', sans-serif;
   margin: 2em;
-  background-image: url("https://www.thoughtco.com/thmb/Juo9H0RfwtwvWVCgjWdms43BQVc=/3763x2822/smart/filters:no_upscale()/VanGoghSelf-PortraitWithBandageCROPPEDGetty149279299-5a12199ada27150037a6f747.jpg")
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  color: #000000;
+  font-size: 45px;
 }
 
+h2 {
+  color: #000000;
+  font-size: 15px;
 }
 
-
-* {
-  box-sizing: border-box;
+h3 {
+  color:#000000
+  font-size:15px;
 }
-
-.box {
-  float: left;
-  width: 33.33%;
-  padding: 50px;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.yellowbox{
-  background-color: yellow;
-}
-.redbox{
-  background-color: red;
-  color: yellow;
+body {
+  background-image: url("https://cdn.glitch.com/f87dacb1-7677-4e98-a074-0f0c541c97f6%2Fbg.jpg?v=1606635194365");
+  overflow:hidden;
   
 }
-.purplebox{
-  background-color: purple;
-}
-.greenbox{
-  background-color: green;
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  width: 750px;
+  height: 700px;
+  position: relative;
+  left: 0px;
+  bottom: 90px
 }
 
-.threecol{
-  width: 33.33%;
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
-.twocol{
-  width: 50%;
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
-.onecol{
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 10px;
   width: 100%;
+  text-align: center;
 }
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+#homeicon {
+  position: relative;
+  bottom: 25px;
+  right: 10px;
+  color: #FFFFFF;
+  width:300px
+  float: left;
+  font-kerning: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0;
+
+}
+
+#artworkbutton {
+  position: relative;
+  bottom: 100px;
+  left: 1200px;
+  width: 100px;
+  float: left;
+  color: #FFFFFF;
+  
+  display:block;
+</a>
+}
+
+#biographybutton {
+  position: relative;
+  bottom: 100px;
+  left: 1200px;
+  width: 100px;
+  float: left;
+  color: #FFFFFF;
+  <a href="biography.html">
+  
+  
+}
+#visitbutton {
+  position: relative;
+  bottom: 100px;
+  left: 1200px;
+  width: 100px;
+  float: left;
+  color: #FFFFFF;
+  
+}
+
+#homebutton {
+  position: relative;
+  bottom: 100px;
+  left: 830px;
+  width: 60px;
+  float: left;
+  color: #FFFFFF;
+  
+}
+
+
+
+#cafe {
+  position: relative;
+  left: 760px;
+  bottom: 750px;
+  
+  float: left;
+  
+}
+
+#vincent {
+  position: relative;
+  left: 780px;
+  bottom: 750px;
+}
+
+#starryover {
+  position: relative;
+  left: 210px;
+  bottom: 350px;
+}
+
 
 /* unvisited link */
 a:link {
-  color: red;
+  color: white;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: white;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: black;
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color: white;
 }
+
+
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 100px;
+  
+}
+
+
+
+.image {
+  display: block;
+  width: 350px;
+  height: 390px;
+}
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 310px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.container2 {
+  position: relative;
+  left:100px
+  width: 50%;
+  max-width: 200px;
+  float:left;
+}
+
+
+
+.image {
+  display: block;
+  width: 350px;
+  height: 390px;
+}
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 310px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+.container3 {
+  position: relative;
+  left:100px
+  width: 50%;
+  max-width: 200px;
+  float:left;
+}
+
+
+
+
+.image {
+  display: block;
+  width: 350px;
+  height: 390px;
+}
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 310px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.container3:hover .overlay {
+  opacity: 1;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+

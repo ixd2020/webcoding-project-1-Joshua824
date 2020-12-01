@@ -4,27 +4,78 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
-    <title>Hello!</title>
+    <title>Homepage</title>
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
     
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>  
+  
+  
   <body>
-    <h1>Hi there!</h1>
     
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
+  <div id="homeicon"><h1>Vincent Van Gogh</h1></div>
+  <div id="artworkbutton"> <a href="artpiece.html" target="_blank"><h2><b>Artworks</b></h2></a></div>
+  <div id="biographybutton"><a href="biography.html" target="_blank"><h2><b>Biography</b></h2></a></div>
+  <div id="visitbutton"><a href="visit.html" target="_blank"><h2>Visits</h2></a></div>
+  <div id="homebutton"><a href="index.html"><h2>Home</h2></a></div>
+  
+ 
+    
+    
+   
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="https://cdn.glitch.com/f87dacb1-7677-4e98-a074-0f0c541c97f6%2FStarrynight.jpg?v=1606546837944" style="width:100%">
+  
+</div>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script>
+<div class="mySlides fade">
+  <img src="https://cdn.glitch.com/f87dacb1-7677-4e98-a074-0f0c541c97f6%2Fpotatoeater3.jpg?v=1606549709920" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="https://cdn.glitch.com/f87dacb1-7677-4e98-a074-0f0c541c97f6%2Fthe%20yellowhouse3.jpg?v=1606549991007" style="width:100%">
+  
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+</div>
+
+<div class="container"><span id="cafe"><img src="https://cdn.glitch.com/f87dacb1-7677-4e98-a074-0f0c541c97f6%2Fcafe.jpg?v=1606559966938" width="350px" height="390px"><div class="overlay">Café Terrace at Night
+</div></span></div>
+    
+    
+<div class="container2"><span id="vincent"><img src="https://cdn.glitch.com/f87dacb1-7677-4e98-a074-0f0c541c97f6%2Fvincent.jpg?v=1606559956822" width="350px" height="390px" ><div class="overlay">Van Gogh Self-Portrait
+
+  
+</div></span></div>
+    
+    
+<div class="container3"><span id="starryover"><img src="https://cdn.glitch.com/f87dacb1-7677-4e98-a074-0f0c541c97f6%2Fsei26139543-1-0.jpg?v=1606570838583" width="720px" height="225px"><div class="overlay">Starry Night Over the Rhône
+
+</div></span></div>
+
+
+  
+    
+    
+  
   </body>
 </html>
