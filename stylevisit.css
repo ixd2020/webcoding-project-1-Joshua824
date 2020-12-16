@@ -1,45 +1,52 @@
 body {
   font-family: helvetica, arial, sans-serif, gotham 'Open Sans', sans-serif;
-  margin: 2em;
+  margin: 0;
+  padding:0;
 }
 
 h1 {
   color: #000000;
   font-size: 45px;
+  margin:0;
 }
 
 h2 {
-  color: #000000;
-  font-size: 15px;
+  color: #D3D3D3;
+  font-size: 18px;
+  
 }
 
 h3 {
   color:#000000
-  font-size:10px;
+  font-size:15px;
 }
 body {
-  background-image: url("https://cdn.glitch.com/f87dacb1-7677-4e98-a074-0f0c541c97f6%2Fbg.jpg?v=1606635194365");
+  background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  margin: 0;
+  padding:0;
   overflow:hidden;
-
 }
 
 #homeicon {
   position: relative;
-  bottom: 25px;
-  right: 10px;
+  top: 20px;
+  left: 40px;
+  width: 450px;
   color: #FFFFFF;
-  width:300px
-  float: left;
+  
+  
   font-kerning: none;
-  background-color: rgba(0, 0, 0, 0.1);
+  
+
+
 }
 
 #artworkbutton {
   position: relative;
-  bottom: 100px;
+  top: -30px;
   left: 1200px;
   width: 100px;
   float: left;
@@ -51,8 +58,8 @@ body {
 
 #biographybutton {
   position: relative;
-  bottom: 100px;
-  left: 1200px;
+  top: -30px;
+  left: 1230px;
   width: 100px;
   float: left;
   color: #FFFFFF;
@@ -62,8 +69,8 @@ body {
 }
 #visitbutton {
   position: relative;
-  bottom: 100px;
-  left: 1200px;
+  top: -30px;
+  left: 1250px;
   width: 100px;
   float: left;
   color: #FFFFFF;
@@ -72,14 +79,13 @@ body {
 
 #homebutton {
   position: relative;
-  bottom: 100px;
-  left: 830px;
+  top: -30px;
+  left: 790px;
   width: 60px;
   float: left;
   color: #FFFFFF;
   
 }
-
 
 
 
@@ -112,8 +118,8 @@ a:active {
   font-weight:bold;
   line-height: 24px;
   color: #00000;
-  text-decoration: underline;
-  font-family: 'Open Sans', sans-serif;
+  
+  font-family: 'gotham', sans-serif;
   text-align: center;
   top:5%
   
@@ -127,7 +133,7 @@ a:active {
   font-weight:bold;
   line-height: 24px;
   color: #00000;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'gotham', sans-serif;
   text-align: center;
   top:5%
 }
@@ -136,60 +142,60 @@ a:active {
 .divtext3{
 position:relative;
   font-size: 24px;
-  font-weight:bold;
+  
   line-height: 24px;
   color: #00000;
-  font-family: 'Open Sans', sans-serif;
-  text-decoration: underline;
+  font-family: 'gotham', sans-serif;
+  
   
 }
 
 #wheretext{
   position:relative;
   right:600px;
-  bottom:370px;
+  bottom:350px;
   
 }
 
 #whereanswer{
   position:relative;
-  bottom:350px;
+  bottom:330px;
   right:427px;
   left:55px;
 }
 
 #museumtitle{
   position:relative;
-  right:740px;
-  bottom:10px;
+  right:750px;
+  top:40px;
   
   
 }
 
 #museumpic{
   position:relative;
-  bottom:40px;
-  left:800px;
+  bottom:10px;
+  left:850px;
   float:left:
 }
 
 #pricetext{
   position:relative;
-  bottom:320px;
+  bottom:300px;
   right:565px;
   
 }
 
 #priceanswer{
   position:relative;
-  bottom:300px;
+  bottom:280px;
   left:55px;
   
 }
 
 #priceanswer2{
   position:relative;
-  bottom:300px;
+  bottom:280px;
   left:55px;
   
 }
@@ -202,5 +208,18 @@ position:relative;
 .textbox{
   width:700px;
   position:relative;
-  bottom:750px;
+  bottom:700px;
+  left:58px;
 }
+
+.divtext5{
+  position:relative;
+  font-size: 24px;
+  
+  line-height: 24px;
+  color: #00000;
+  font-family: 'gotham', sans-serif;
+  
+  top:5%
+}
+

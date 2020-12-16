@@ -1,18 +1,22 @@
 /* CSS files add styling rules to your content */
 
+
 body {
   font-family: helvetica, arial, sans-serif, gotham 'Open Sans', sans-serif;
-  margin: 2em;
+  margin: 0;
+  padding:0;
 }
 
 h1 {
   color: #000000;
   font-size: 45px;
+  margin:0;
 }
 
 h2 {
-  color: #000000;
-  font-size: 15px;
+  color: #D3D3D3;
+  font-size: 18px;
+  
 }
 
 h3 {
@@ -20,8 +24,13 @@ h3 {
   font-size:15px;
 }
 body {
-  background-image: url("https://cdn.glitch.com/f87dacb1-7677-4e98-a074-0f0c541c97f6%2Fbg.jpg?v=1606635194365");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
   overflow:hidden;
+  margin: 0;
+  padding:0;
   
 }
 
@@ -31,11 +40,11 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 750px;
-  height: 700px;
+  width: 760px;
+  height: 750px;
   position: relative;
-  left: 0px;
-  bottom: 90px
+  left: 20px;
+  bottom:6px;
 }
 
 /* Next & previous buttons */
@@ -131,22 +140,38 @@ body {
   }
 }
 
+
+
+
+/* responsive */
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+/* vincent logo */
+
+
+
 #homeicon {
   position: relative;
-  bottom: 25px;
-  right: 10px;
+  top: 20px;
+  left:40px;
+  width: 450px;
   color: #FFFFFF;
-  width:300px
-  float: left;
+  
+  
   font-kerning: none;
-  background-color: rgba(0, 0, 0, 0.1);
-  margin: 0;
+  
+
 
 }
 
 #artworkbutton {
   position: relative;
-  bottom: 100px;
+  top: -30px;
   left: 1200px;
   width: 100px;
   float: left;
@@ -158,8 +183,8 @@ body {
 
 #biographybutton {
   position: relative;
-  bottom: 100px;
-  left: 1200px;
+  top: -30px;
+  left: 1230px;
   width: 100px;
   float: left;
   color: #FFFFFF;
@@ -169,8 +194,8 @@ body {
 }
 #visitbutton {
   position: relative;
-  bottom: 100px;
-  left: 1200px;
+  top: -30px;
+  left: 1250px;
   width: 100px;
   float: left;
   color: #FFFFFF;
@@ -179,8 +204,8 @@ body {
 
 #homebutton {
   position: relative;
-  bottom: 100px;
-  left: 830px;
+  top: -30px;
+  left: 790px;
   width: 60px;
   float: left;
   color: #FFFFFF;
@@ -189,10 +214,12 @@ body {
 
 
 
+/*art*/
+
 #cafe {
   position: relative;
-  left: 760px;
-  bottom: 750px;
+  left: 800px;
+  bottom: 706px;
   
   float: left;
   
@@ -200,14 +227,14 @@ body {
 
 #vincent {
   position: relative;
-  left: 780px;
-  bottom: 750px;
+  left: 820px;
+  bottom: 705px;
 }
 
 #starryover {
   position: relative;
-  left: 210px;
-  bottom: 350px;
+  left: 250px;
+  bottom: 310px;
 }
 
 
